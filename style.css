@@ -14,24 +14,34 @@ h1 {
     font-family: 'Montserrat', 'Open Sans', 'Noto Sans Japanese'; 
     font-weight: 400;
     font-size: 30px;
+    color: #325273;
 }
 
 h2 {
     font-family: 'Montserrat', 'Open Sans', 'Noto Sans Japanese'; 
     font-weight: 400;
     font-size: 20px;
+    color: #325273;
 } 
 
 h3 {
     font-family: 'Montserrat', 'Open Sans', 'Noto Sans Japanese'; 
     font-weight: 300;
     font-size: 15px;
+    color: #325273;
 } 
 
 p {
     font-family: 'Roboto', 'Zain', 'Open Sans'; 
     font-weight: 300;
     font-size: 15px;
+    color: #325273;
+}
+
+a {
+    font-family: 'Roboto', 'Zain', 'Open Sans'; 
+    font-weight: 400;
+    font-size: 18px;
 }
 
 body {
@@ -50,7 +60,7 @@ body {
 nav {
     background-color: #A2CFFE;
     color: white;
-    height: 70px;
+    height: auto;
     border-radius: 30px;
     position: relative;
     z-index: 1;
@@ -72,6 +82,29 @@ nav {
     height: auto;
     width: 40%;
     margin: 0 auto;
+}
+
+ul {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    margin: 25px 30px;
+}  
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #325273;
+    padding-bottom: 2px;
+}
+
+a:hover {
+    border-bottom: 2px solid #325273;
 }
 
 .wrapper {
@@ -116,4 +149,98 @@ nav {
     background-position: cover;
     background-repeat: no-repeat;
     margin: -40px 0 0 0;
+    position: relative;
+    z-index: 0;
+} 
+
+.infoBox {
+    background-color: #a2cefeea;
+    padding: 20px;
+    /* margin-left: 10%; */
+    height: auto;
+    width: 350px;
+    position: absolute;
+    border-radius: 10px;
+    top: 60%;
+    right: 10%
 }
+
+.spaceBelow {
+    margin-bottom: 10px;
+}
+
+.infoBox p {
+    margin-bottom: 20px;
+}
+
+.infoBox a {
+    border: 2px solid #325273;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 15px;
+} 
+
+/* About Section */
+
+#about {
+    width: 80%;
+    margin: 30px auto;
+    height: auto;
+} 
+
+.title {
+    border-left: 5px solid #A2CFFE;
+    padding-left: 15px;
+}
+
+.wrapper2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    margin: 25px auto;
+}  
+
+.container2 {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.aboutText {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.aboutText p {
+    padding: 10px 0;
+    margin: 0 20px 0 0;
+}
+
+.aboutimg {
+    background-image: url(img/workPhoto2.png); 
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper3 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 0 0 0;
+    width: auto;
+    height: auto;
+}
+
+.container3 {
+    height: auto;
+    width: auto;
+    align-content: center; 
+}
+
+/* Gallery Section */

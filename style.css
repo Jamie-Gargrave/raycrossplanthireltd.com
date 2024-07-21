@@ -41,14 +41,14 @@ body {
 } 
 
 .icon {
-    color: #325373;
+    color: ##A2CFFE;
 }
 
 
 /* Header Area */
 
 nav {
-    background-color: #325373;
+    background-color: #A2CFFE;
     color: white;
     height: 70px;
     border-radius: 30px;
@@ -99,6 +99,6 @@ nav {
 
 .icon-special {
     color: whitesmoke;
-    background-color: #325373;
+    background-color: #A2CFFE;
     border-radius: 50%;
 }

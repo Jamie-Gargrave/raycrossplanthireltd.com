@@ -51,7 +51,7 @@ body {
 } 
 
 .icon {
-    color: ##A2CFFE;
+    color: #A2CFFE;
 }
 
 
@@ -368,4 +368,357 @@ footer a {
 
 footer a:hover {
     border-color: #f0954f;
+}
+
+@media (max-width: 1215px) {
+    
+    .backgroundPic {
+        height: 600px;
+    }
+
+    .mainHeader {
+        width: 90%;
+    }
+
+    nav {
+        width: 90%;
+    }
+
+    ul {
+        width: 90%;
+    }
+
+    #about {
+        width: 90%;
+    }
+
+    .aboutimg {
+        background-position: center;
+    }
+
+    .aboutText {
+        margin-top: 20px;
+    }
+
+    .title2 {
+        width: 90%;
+    }
+
+    .wrapper4 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+    .aboutText {
+        margin-top: 10px;
+    }
+
+    .wrapper3 {
+        margin: 15px 0 0 0;
+    }
+
+    .aboutText p {
+        padding: 8px 0;
+    }
+}
+
+@media (max-width: 987px) {
+    
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    li {
+        margin: 20px 30px;
+    }
+
+    .backgroundPic {
+        margin: -35px 0 0 0;
+    }
+
+}
+
+@media (max-width: 894px) {
+    
+    .aboutText {
+        margin-top: 0;
+    }
+} 
+
+@media (max-width: 832px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .aboutText p {
+        padding: 5px 0;
+    }
+
+    .wrapper3 {
+        margin: 13px 0 0 0;
+    }
+
+    .infoBox {
+        padding: 16px;
+        top: 65%;
+    }
+} 
+
+@media (max-width: 814px) {
+    .wrapper2 {
+        margin: 20px auto;
+    }
+
+    .aboutText p {
+        padding: 3px 0;
+    }
+
+    .container4 {
+        height: 200px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 733px) {
+    
+    .wrapper2 {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .container2 {
+        height: 320px;
+    }
+
+    .wrapper4 {
+        display: block;
+    }
+
+    .container4 {
+        height: 400px;
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .mobileFix {
+        margin-top: -10px;
+    }
+
+    #gallery {
+        margin: 10px auto;
+    }
+
+    .infoBox {
+        top: 60%;
+    }
+}
+
+@media (max-width: 732px) {
+    
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 687px) {
+    .container2 {
+        height: 350px;
+    }
+}
+
+@media (max-width: 665px) {
+    h1 {
+        font-size: 18px;
+    } 
+
+    li {
+        margin: 15px 30px;
+    }
+
+    .backgroundPic {
+        margin: -25px 0 0 0;
+    }
+
+    .container2 {
+        height: 380px;
+    }
+}
+
+@media (max-width: 699px) {
+    h1 {
+        font-size: 15px;
+    } 
+
+    .mainHeader {
+        width: 95%;
+    }
+
+    .nav {
+        width: 95%;
+    }
+
+    .about {
+        width: 95%;
+    }
+
+    .wrapper4 {
+        width: 95%;
+    }
+
+    .infoBox {
+        right: 10%;
+    }
+
+    #gallery {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 554px) {
+    .container2 {
+        height: 400px;
+    }
+
+    #gallery {
+        padding: 30px 0 5px;
+    }
+}
+
+@media (max-width: 483px) {
+    .container2 {
+        height: 420px;
+    }
+}
+
+@media (max-width: 473px) {
+    .mainHeader {
+        width: 98%;
+    }
+
+    .nav {
+        width: 98%;
+    }
+
+    .about {
+        width: 98%;
+    }
+
+    .wrapper4 {
+        width: 98%;
+    }
+
+    .infoBox {
+        margin: 0 auto;
+    }
+
+    .container2 {
+        height: 440px;
+    }
+}
+
+@media (max-width: 451px) {
+    .container2 {
+        height: 460px;
+    }
+
+    .infoBox {
+        right: 5%;
+    }
+}
+
+@media (max-width: 447px) {
+    .container2 {
+        height: 480px;
+    }
+}
+
+@media (max-width: 421px) {
+
+    li {
+        margin: 15px;
+    }
+
+    .infoBox {
+        right: 1%;
+    }
+
+    .container2 {
+        height: 500px;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .mainHeader {
+        display: block;
+        width: 98%;
+        margin: 15px auto 15px; 
+    }
+
+    .header {
+        width: 98%;
+        text-align: center;
+    }
+
+    .wrapper {
+        text-align: center;
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .infoBox {
+        width: 250px;
+        right: 5%;
+    }
+
+    .container2 {
+        height: 520px;
+    }
+}
+
+@media (max-width: 383px){
+    .container2 {
+        height: 540px;
+    }
+}
+
+@media (max-width: 363px){
+    .container2 {
+        height: 560px;
+    }
+}
+
+@media (max-width: 345px){
+    .container2 {
+        height: 580px;
+    }
+}
+
+@media (max-width: 324px){
+    .container2 {
+        height: 600px;
+    }
 }
